@@ -12,8 +12,8 @@ import pyodbc
 
 server = "jupiter\\bv3"
 database = 'Hering'
-username = 'sa'
-password = '312B1c3d34A@'
+username = ''
+password = ''
 cnxn = pyodbc.connect('Driver={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
 save_arquivo = "produtos.txt"
